@@ -1,0 +1,133 @@
+.favorites-page {
+    padding: 48px 0;
+    min-height: 70vh;
+}
+
+.favorites-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.favorites-header h1 {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+}
+
+.favorites-header p {
+    font-size: 1.2rem;
+    color: var(--text-light);
+}
+
+.empty-favorites {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.empty-icon {
+    font-size: 80px;
+    color: var(--text-light);
+    margin-bottom: 24px;
+}
+
+.empty-favorites h2 {
+    font-size: 2rem;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+}
+
+.empty-favorites p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 32px;
+}
+
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.favorite-card {
+    position: relative;
+    background: white;
+    border-radius: 12px;
+    border: 2px solid var(--border-color);
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.favorite-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent-blue);
+}
+
+.remove-favorite {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+    background: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s;
+}
+
+.remove-favorite:hover {
+    background: #ff4757;
+    color: white;
+    transform: scale(1.1);
+}
+
+.favorite-card a {
+    text-decoration: none;
+    display: block;
+}
+
+.favorite-visual {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorite-icon {
+    font-size: 72px;
+}
+
+.favorite-info {
+    padding: 24px;
+}
+
+.favorite-info h3 {
+    font-size: 1.3rem;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.favorite-category {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 12px;
+}
+
+.favorite-price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--accent-green);
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .favorites-grid {
+        grid-template-columns: 1fr;
+    }
+}

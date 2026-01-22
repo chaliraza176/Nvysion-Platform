@@ -1,0 +1,439 @@
+/* VistaPrint-Style Category Page */
+.category-page-vp {
+    background: #f8f9fa;
+}
+
+/* Breadcrumb */
+.breadcrumb-section {
+    background: white;
+    padding: 16px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb .separator {
+    color: #9ca3af;
+}
+
+.breadcrumb .current {
+    color: #111827;
+    font-weight: 500;
+}
+
+/* Page Header */
+.page-header-section {
+    background: white;
+    padding: 40px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.page-subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+/* Main Content Layout */
+.category-main-content {
+    padding: 40px 0 80px;
+}
+
+.content-layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 40px;
+}
+
+/* Sidebar Filters */
+.filters-sidebar {
+    position: sticky;
+    top: 200px;
+    height: fit-content;
+}
+
+.filter-section {
+    background: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+.filter-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+.filter-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-list li {
+    margin-bottom: 8px;
+}
+
+.filter-btn {
+    width: 100%;
+    text-align: left;
+    padding: 10px 16px;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filter-btn:hover {
+    background: #f3f4f6;
+    color: #0066cc;
+}
+
+.filter-btn.active {
+    background: #eff6ff;
+    color: #0066cc;
+    font-weight: 600;
+}
+
+/* Sidebar Trust Badges */
+.sidebar-badges {
+    background: #f0fdf4;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #bbf7d0;
+}
+
+.trust-badge-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #166534;
+}
+
+.trust-badge-item:last-child {
+    margin-bottom: 0;
+}
+
+.badge-icon {
+    color: #16a34a;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Products Main Area */
+.products-main {
+    background: transparent;
+}
+
+/* Sort Bar */
+.sort-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.results-count {
+    font-size: 15px;
+    color: #6b7280;
+    margin: 0;
+}
+
+.sort-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sort-controls label {
+    font-size: 14px;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.sort-select {
+    padding: 8px 32px 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #111827;
+    background-color: white;
+    cursor: pointer;
+    min-width: 180px;
+}
+
+.sort-select:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Products Grid */
+.products-grid-vp {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+/* Product Card - VistaPrint Style */
+.product-card-vp {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e7eb;
+}
+
+.product-card-vp:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+    border-color: #0066cc;
+}
+
+/* Product Image */
+.product-image-vp {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-icon-large {
+    font-size: 80px;
+}
+
+.popular-tag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #f59e0b;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Product Details */
+.product-details-vp {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title-vp {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.product-category-tag {
+    font-size: 13px;
+    color: #6b7280;
+    margin-bottom: 12px;
+}
+
+/* Pricing */
+.product-pricing-vp {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.starting-text {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.price-vp {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #059669;
+}
+
+/* Features Preview */
+.product-features-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+    flex: 1;
+}
+
+.feature-badge {
+    font-size: 13px;
+    color: #059669;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* View Details Button */
+.view-details-btn {
+    width: 100%;
+    padding: 12px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: auto;
+}
+
+.view-details-btn:hover {
+    background: #0052a3;
+}
+
+/* Bottom Benefits Section */
+.bottom-benefits {
+    background: white;
+    padding: 60px 0;
+    border-top: 1px solid #e5e7eb;
+}
+
+.benefits-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 40px;
+}
+
+.benefits-grid-vp {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
+}
+
+.benefit-item-vp {
+    text-align: center;
+}
+
+.benefit-icon-vp {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.benefit-item-vp h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.benefit-item-vp p {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .content-layout {
+        grid-template-columns: 220px 1fr;
+        gap: 24px;
+    }
+
+    .products-grid-vp {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .filters-sidebar {
+        position: static;
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+
+    .products-grid-vp {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 16px;
+    }
+
+    .sort-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .sort-controls {
+        width: 100%;
+    }
+
+    .sort-select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .products-grid-vp {
+        grid-template-columns: 1fr;
+    }
+
+    .benefits-grid-vp {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}

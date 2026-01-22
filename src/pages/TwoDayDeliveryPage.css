@@ -1,0 +1,482 @@
+/* 2-Day Delivery Page - VistaPrint Style */
+
+.td-page {
+    background: #fff;
+    min-height: 100vh;
+}
+
+.td-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Hero Banner */
+.td-hero-banner {
+    background: linear-gradient(135deg, #003057 0%, #004577 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.td-hero-overlay {
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.td-hero-banner h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+}
+
+.td-hero-banner p {
+    font-size: 18px;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Navigation Tabs */
+.td-tabs-wrapper {
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.td-tabs {
+    display: flex;
+    gap: 8px;
+    padding: 16px 0;
+    overflow-x: auto;
+}
+
+.td-tab {
+    padding: 10px 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1a1a1a;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.td-tab:hover {
+    border-color: #003057;
+}
+
+.td-tab.active {
+    background: #003057;
+    color: #fff;
+    border-color: #003057;
+}
+
+/* Sections */
+.td-section {
+    padding: 48px 0;
+}
+
+.td-section-gray {
+    background: #f8f9fa;
+}
+
+.td-section-beige {
+    background: #f5f0e8;
+}
+
+.td-section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 8px 0;
+}
+
+.td-section-desc {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 32px 0;
+}
+
+/* Product Grids */
+.td-grid-6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.td-grid-8 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 16px;
+}
+
+.td-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+/* Product Cards */
+.td-product-card {
+    text-decoration: none;
+    display: block;
+    transition: transform 0.2s;
+}
+
+.td-product-card:hover {
+    transform: translateY(-4px);
+}
+
+.td-product-img {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    background: #f5f5f5;
+}
+
+.td-product-img img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.td-product-card:hover .td-product-img img {
+    transform: scale(1.05);
+}
+
+.td-img-tall img {
+    height: 160px;
+}
+
+.td-img-square img {
+    height: 120px;
+}
+
+.td-img-wide img {
+    height: 180px;
+}
+
+.td-card-small .td-product-name {
+    font-size: 12px;
+}
+
+.td-product-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    display: block;
+}
+
+.td-product-card:hover .td-product-name {
+    color: #003057;
+    text-decoration: underline;
+}
+
+/* Support Banner */
+.td-support-banner {
+    background: #e8f4f8;
+    padding: 40px 0;
+}
+
+.td-support-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.td-support-text {
+    flex: 1;
+}
+
+.td-support-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 8px 0;
+}
+
+.td-support-text p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+.td-support-actions {
+    flex-shrink: 0;
+}
+
+.td-btn-primary {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #003057;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.td-btn-primary:hover {
+    background: #004577;
+}
+
+.td-support-image {
+    flex-shrink: 0;
+}
+
+.td-support-image img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Circles Grid - More ways to find */
+.td-circles-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 24px;
+}
+
+.td-circle-item {
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.td-circle-item:hover {
+    transform: translateY(-4px);
+}
+
+.td-circle-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 12px;
+    border: 2px solid #e5e7eb;
+    transition: border-color 0.2s;
+}
+
+.td-circle-item:hover .td-circle-img {
+    border-color: #003057;
+}
+
+.td-circle-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.td-circle-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.td-circle-item:hover .td-circle-name {
+    color: #003057;
+    text-decoration: underline;
+}
+
+/* Why VistaPrint Section */
+.td-why-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.td-why-content h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.td-why-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 20px 0;
+    line-height: 1.3;
+}
+
+.td-why-content p {
+    font-size: 16px;
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0 0 24px 0;
+}
+
+.td-why-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.td-why-list li {
+    font-size: 15px;
+    color: #1a1a1a;
+    padding: 8px 0;
+}
+
+.td-why-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Info Text */
+.td-info-text {
+    max-width: 900px;
+}
+
+.td-info-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 20px 0;
+}
+
+.td-info-text p {
+    font-size: 15px;
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0 0 16px 0;
+}
+
+/* FAQ Section */
+.td-faq-list {
+    max-width: 800px;
+}
+
+.td-faq-item {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.td-faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    cursor: pointer;
+    text-align: left;
+}
+
+.td-faq-question:hover {
+    color: #003057;
+}
+
+.td-faq-question svg {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.td-faq-answer {
+    padding: 0 0 20px 0;
+}
+
+.td-faq-answer p {
+    font-size: 15px;
+    color: #4b5563;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .td-grid-6 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .td-grid-8 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .td-circles-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .td-hero-banner h1 {
+        font-size: 32px;
+    }
+    
+    .td-why-section {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .td-support-content {
+        flex-wrap: wrap;
+    }
+    
+    .td-support-image {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .td-hero-banner h1 {
+        font-size: 26px;
+    }
+    
+    .td-grid-6,
+    .td-grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .td-grid-8 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .td-circles-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .td-section-title {
+        font-size: 22px;
+    }
+    
+    .td-tabs {
+        gap: 6px;
+    }
+    
+    .td-tab {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .td-grid-6,
+    .td-grid-4,
+    .td-grid-8 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .td-circles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .td-circle-img {
+        width: 80px;
+        height: 80px;
+    }
+}

@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "_id": "user_1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "phone": "+1234567890",
+      "role": "user",
+      "agreeToTerms": true,
+      "emailPreferences": {
+        "promotional": true,
+        "orderUpdates": true
+      },
+      "savedAddresses": [],
+      "createdAt": "2026-01-09T13:36:20.538Z"
+    },
+    {
+      "_id": "admin_1",
+      "firstName": "Admin",
+      "lastName": "User",
+      "email": "admin@vistaprint.com",
+      "password": "admin123",
+      "phone": "",
+      "role": "admin",
+      "agreeToTerms": true,
+      "emailPreferences": {
+        "promotional": false,
+        "orderUpdates": true
+      },
+      "savedAddresses": [],
+      "createdAt": "2026-01-09T13:36:20.539Z"
+    },
+    {
+      "_id": "user_1767966392126_pj9t2jsab",
+      "firstName": "ali",
+      "lastName": "ch",
+      "email": "alirazachh176@gmail.com",
+      "password": "01760176",
+      "phone": "03230917176",
+      "role": "user",
+      "agreeToTerms": true,
+      "emailPreferences": {
+        "promotional": true,
+        "orderUpdates": true
+      },
+      "savedAddresses": [],
+      "createdAt": "2026-01-09T13:46:32.126Z"
+    },
+    {
+      "_id": "user_1767982266346_jt8e490dn",
+      "firstName": "chsab",
+      "lastName": "husnain",
+      "email": "chhalirazachh@gmail.com",
+      "password": "00000000",
+      "phone": "03230917176",
+      "role": "user",
+      "agreeToTerms": true,
+      "emailPreferences": {
+        "promotional": true,
+        "orderUpdates": true
+      },
+      "savedAddresses": [],
+      "createdAt": "2026-01-09T18:11:06.346Z"
+    },
+    {
+      "_id": "user_1767982447552_iltju867e",
+      "firstName": "dhdch",
+      "lastName": "dhch",
+      "email": "alirazachh1766@gmail.com",
+      "password": "12345678",
+      "phone": "03230917176",
+      "role": "user",
+      "agreeToTerms": true,
+      "emailPreferences": {
+        "promotional": true,
+        "orderUpdates": true
+      },
+      "savedAddresses": [],
+      "createdAt": "2026-01-09T18:14:07.552Z"
+    },
+    {
+      "_id": "user_1768154905571_6l91c4vve",
+      "firstName": "husnain ",
+      "lastName": "raza",
+      "email": "alirazachh17600@gmail.com",
+      "password": "00000000",
+      "phone": "03230917176",
+      "role": "user",
+      "agreeToTerms": true,
+      "emailPreferences": {
+        "promotional": true,
+        "orderUpdates": true
+      },
+      "savedAddresses": [],
+      "createdAt": "2026-01-11T18:08:25.571Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "cat_1",
+      "name": "Business Cards",
+      "slug": "business-cards",
+      "icon": "💼",
+      "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "subcategories": [
+        {
+          "name": "Standard Cards",
+          "items": [
+            {
+              "name": "Matte",
+              "slug": "matte"
+            },
+            {
+              "name": "Glossy",
+              "slug": "glossy"
+            }
+          ]
+        },
+        {
+          "name": "Unique Shapes",
+          "items": [
+            {
+              "name": "Rounded Corner",
+              "slug": "rounded-corner"
+            },
+            {
+              "name": "Square",
+              "slug": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "cat_3",
+      "name": "Stickers & Labels",
+      "slug": "stickers-labels",
+      "icon": "🏷️",
+      "gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "subcategories": [
+        {
+          "name": "Stickers",
+          "items": [
+            {
+              "name": "Die-Cut Stickers",
+              "slug": "die-cut-stickers"
+            },
+            {
+              "name": "Sticker Sheets",
+              "slug": "sticker-sheets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "cat_4",
+      "name": "Clothing & Bags",
+      "slug": "clothing-bags",
+      "icon": "👕",
+      "gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "subcategories": [
+        {
+          "name": "T-Shirts",
+          "items": [
+            {
+              "name": "Unisex T-Shirts",
+              "slug": "unisex-tshirts"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "_id": "prod_1",
+      "name": "Matte Business Cards",
+      "slug": "matte",
+      "category": "business-cards",
+      "subcategory": "Standard Cards",
+      "description": "Classic, sophisticated smooth finish.",
+      "startingPrice": 14.99,
+      "type": "bundle",
+      "images": [
+        "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800"
+      ],
+      "features": [
+        "Premium matte finish",
+        "Sturdy cardstock"
+      ],
+      "inStock": true,
+      "featured": true
+    }
+  ],
+  "carts": {
+    "user_1767958159746_dbfz2efb9": {
+      "items": [],
+      "subtotal": 0
+    },
+    "user_1767966392126_pj9t2jsab": {
+      "items": [],
+      "subtotal": 0
+    },
+    "user_1767982266346_jt8e490dn": {
+      "items": [],
+      "subtotal": 0
+    },
+    "user_1767982447552_iltju867e": {
+      "items": [],
+      "subtotal": 0
+    }
+  },
+  "orders": [],
+  "projects": []
+}

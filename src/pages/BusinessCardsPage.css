@@ -1,0 +1,1347 @@
+/* ========================================
+   VistaPrint Business Cards Page Styles
+   Complete clone matching real website
+======================================== */
+
+.bc-page {
+    background: #fff;
+    min-height: 100vh;
+}
+
+/* Container */
+.bc-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Breadcrumb */
+.bc-breadcrumb {
+    background: #fff;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+}
+
+.bc-breadcrumb a {
+    color: #4b5563;
+    text-decoration: none;
+}
+
+.bc-breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.bc-breadcrumb-separator {
+    color: #9ca3af;
+    margin: 0 8px;
+}
+
+.bc-breadcrumb span:last-child {
+    color: #1f2937;
+}
+
+/* ========================================
+   Hero Section
+======================================== */
+.bc-hero {
+    background: linear-gradient(135deg, #f5f0e8 0%, #e8dfd3 100%);
+    padding: 48px 0;
+}
+
+.bc-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.bc-hero-reviews {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.bc-hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 16px 0;
+    line-height: 1.1;
+}
+
+.bc-hero-description {
+    font-size: 18px;
+    color: #4b5563;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.bc-hero-promo {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.bc-hero-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.bc-hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bc-hero-visual {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+}
+
+.bc-hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bc-hero-fallback {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc-sample-card {
+    background: #fef3c7;
+    padding: 24px 36px;
+    border-radius: 8px;
+    transform: rotate(-5deg);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.bc-card-brand {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.bc-card-store {
+    display: block;
+    font-size: 10px;
+    color: #6b7280;
+    margin-top: 4px;
+}
+
+/* ========================================
+   Buttons
+======================================== */
+.bc-btn {
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.bc-btn-primary {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.bc-btn-primary:hover {
+    background: #1a1a1a;
+}
+
+.bc-btn-secondary {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.bc-btn-secondary:hover {
+    background: #f3f4f6;
+}
+
+.bc-btn-tertiary {
+    background: transparent;
+    color: #000;
+    border-color: #d1d5db;
+}
+
+.bc-btn-tertiary:hover {
+    background: #f9fafb;
+    border-color: #9ca3af;
+}
+
+.bc-btn-blue {
+    background: #3b82f6;
+    color: #fff;
+    border-color: #3b82f6;
+}
+
+.bc-btn-blue:hover {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+
+.bc-btn-outline {
+    background: transparent;
+    color: #000;
+    border-color: #d1d5db;
+}
+
+.bc-btn-outline:hover {
+    border-color: #000;
+}
+
+.bc-btn-white {
+    background: #fff;
+    color: #1e3a5f;
+    border-color: #fff;
+}
+
+.bc-btn-white:hover {
+    background: #f0f9ff;
+}
+
+.bc-btn-white-outline {
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.bc-btn-white-outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* ========================================
+   Main Layout
+======================================== */
+.bc-main {
+    padding: 48px 0;
+}
+
+.bc-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 48px;
+}
+
+/* ========================================
+   Sidebar
+======================================== */
+.bc-sidebar {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+
+.bc-sidebar-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 24px 0;
+}
+
+.bc-sidebar-section {
+    margin-bottom: 28px;
+}
+
+.bc-sidebar-heading {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 12px 0;
+}
+
+.bc-sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bc-sidebar-links li {
+    margin-bottom: 8px;
+}
+
+.bc-sidebar-link {
+    color: #4b5563;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: color 0.2s;
+    display: block;
+}
+
+.bc-sidebar-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.bc-sidebar-link.bc-shop-all {
+    color: #2563eb;
+}
+
+.bc-sidebar-link.bc-shop-all:hover {
+    color: #1d4ed8;
+}
+
+/* ========================================
+   Sections
+======================================== */
+.bc-section {
+    margin-bottom: 64px;
+}
+
+.bc-section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 12px 0;
+}
+
+.bc-section-subtitle {
+    font-size: 16px;
+    color: #6b7280;
+    margin: 0 0 32px 0;
+    max-width: 700px;
+}
+
+/* ========================================
+   Card Options Grid
+======================================== */
+.bc-options-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.bc-option-card {
+    position: relative;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #fff;
+}
+
+.bc-option-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+.bc-option-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #2563eb;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.bc-favorite-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #fff;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+}
+
+.bc-favorite-btn:hover {
+    transform: scale(1.1);
+    color: #ef4444;
+}
+
+.bc-option-image {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.bc-option-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.bc-option-card:hover .bc-option-image img {
+    transform: scale(1.05);
+}
+
+.bc-option-icon {
+    font-size: 64px;
+}
+
+.bc-option-info {
+    padding: 20px;
+}
+
+.bc-option-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 8px 0;
+}
+
+.bc-option-desc {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0 0 12px 0;
+    line-height: 1.5;
+}
+
+.bc-option-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #4b5563;
+    margin-bottom: 8px;
+}
+
+.bc-stars {
+    color: #f59e0b;
+}
+
+.bc-option-price {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* ========================================
+   Papers Tabs & Details
+======================================== */
+.bc-papers-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+}
+
+.bc-paper-tab {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-width: 80px;
+}
+
+.bc-paper-tab:hover .bc-paper-icon {
+    transform: scale(1.05);
+}
+
+.bc-paper-tab.active .bc-paper-icon {
+    border: 2px solid #003057;
+}
+
+.bc-paper-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.bc-paper-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bc-paper-name {
+    font-size: 12px;
+    color: #4b5563;
+    text-align: center;
+}
+
+.bc-paper-tab.active .bc-paper-name {
+    color: #000;
+    font-weight: 600;
+}
+
+.bc-paper-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    background: #f9fafb;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.bc-paper-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc-paper-card {
+    background: #fff;
+    padding: 80px 60px;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transform: perspective(1000px) rotateY(-5deg);
+}
+
+.bc-preview-name {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.bc-preview-url {
+    display: block;
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+.bc-paper-info h3 {
+    margin: 0 0 8px 0;
+}
+
+.bc-paper-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.bc-rating-inline {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6b7280;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.bc-paper-desc {
+    font-size: 15px;
+    color: #6b7280;
+    margin: 0 0 24px 0;
+}
+
+.bc-paper-details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.bc-detail-block h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 8px 0;
+}
+
+.bc-detail-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bc-detail-block li {
+    font-size: 13px;
+    color: #4b5563;
+    margin-bottom: 6px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.bc-detail-block li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #9ca3af;
+}
+
+.bc-view-details {
+    color: #2563eb;
+    text-decoration: underline;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.bc-paper-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.bc-paper-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+/* ========================================
+   Templates Section
+======================================== */
+.bc-template-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+}
+
+.bc-template-tab {
+    flex-shrink: 0;
+    padding: 8px 20px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.bc-template-tab:hover {
+    border-color: #9ca3af;
+}
+
+.bc-template-tab.active {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.bc-templates-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.bc-template-card {
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.bc-template-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.bc-template-preview {
+    height: 140px;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.bc-template-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.bc-template-card:hover .bc-template-preview img {
+    transform: scale(1.05);
+}
+
+.bc-template-content {
+    text-align: center;
+    padding: 16px;
+}
+
+.bc-template-logo {
+    width: 36px;
+    height: 36px;
+    border: 2px solid currentColor;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 12px;
+    font-weight: 700;
+}
+
+.bc-template-name {
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    padding: 10px 8px;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+.bc-template-subtitle {
+    font-size: 10px;
+    opacity: 0.7;
+    white-space: pre-line;
+}
+
+.bc-upload-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 100%;
+    background: #4a5568;
+    color: #fff;
+}
+
+.bc-upload-icon {
+    font-size: 36px;
+}
+
+.bc-browse-all {
+    text-align: center;
+}
+
+.bc-browse-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.bc-browse-link:hover {
+    text-decoration: underline;
+}
+
+/* ========================================
+   Shapes Section
+======================================== */
+.bc-shapes-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.bc-shape-card {
+    position: relative;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s;
+    background: #fff;
+}
+
+.bc-shape-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.bc-shape-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #10b981;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.bc-shape-image {
+    height: 140px;
+    background: #f9fafb;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.bc-shape-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.bc-shape-card:hover .bc-shape-image img {
+    transform: scale(1.05);
+}
+
+.bc-shape-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 6px 0;
+}
+
+.bc-shape-desc {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+}
+
+.bc-shape-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #4b5563;
+    margin-bottom: 8px;
+}
+
+.bc-shape-price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+
+/* ========================================
+   Delivery Banner
+======================================== */
+.bc-delivery-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.bc-delivery-content {
+    padding: 48px;
+    color: #fff;
+}
+
+.bc-delivery-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+}
+
+.bc-delivery-content p {
+    font-size: 16px;
+    margin: 0 0 28px 0;
+    opacity: 0.9;
+}
+
+.bc-delivery-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.bc-delivery-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.bc-delivery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 250px;
+}
+
+/* ========================================
+   Business Use Section
+======================================== */
+.bc-business-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.bc-business-card {
+    position: relative;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    transition: all 0.3s;
+}
+
+.bc-business-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.bc-business-image {
+    height: 160px;
+    background: #f9fafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bc-business-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.bc-business-card:hover .bc-business-image img {
+    transform: scale(1.05);
+}
+
+.bc-business-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    margin: 16px 16px 6px;
+    line-height: 1.3;
+}
+
+.bc-business-desc {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 0 16px 10px;
+    line-height: 1.4;
+}
+
+.bc-business-rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #4b5563;
+    margin: 0 16px 8px;
+}
+
+.bc-business-price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 16px 16px;
+}
+
+/* ========================================
+   Card Holders Section
+======================================== */
+.bc-holders-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.bc-holder-card {
+    position: relative;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    transition: all 0.3s;
+}
+
+.bc-holder-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.bc-holder-image {
+    height: 180px;
+    background: #f9fafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bc-holder-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.bc-holder-card:hover .bc-holder-image img {
+    transform: scale(1.05);
+}
+
+.bc-holder-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    margin: 16px 16px 6px;
+    line-height: 1.3;
+}
+
+.bc-holder-desc {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 0 16px 10px;
+    line-height: 1.4;
+}
+
+.bc-holder-rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #4b5563;
+    margin: 0 16px 16px;
+}
+
+/* ========================================
+   Sample Kit Section
+======================================== */
+.bc-sample-section {
+    background: #f9fafb;
+    padding: 48px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.bc-sample-content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 16px 0;
+}
+
+.bc-sample-quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #4b5563;
+    margin: 0 0 24px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ========================================
+   Trust Features
+======================================== */
+.bc-trust-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    padding: 40px 0;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.bc-trust-item {
+    text-align: center;
+}
+
+.bc-trust-icon {
+    font-size: 36px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.bc-trust-item h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 8px 0;
+}
+
+.bc-trust-item p {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* ========================================
+   Cut Through Noise Section
+======================================== */
+.bc-noise-section {
+    background: #f5f0e8;
+    padding: 48px;
+    border-radius: 12px;
+}
+
+.bc-noise-section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.bc-noise-section p {
+    font-size: 15px;
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0 0 16px 0;
+}
+
+.bc-noise-section p:last-child {
+    margin-bottom: 0;
+}
+
+/* ========================================
+   FAQ Section
+======================================== */
+.bc-faq-list {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.bc-faq-item {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.bc-faq-item:last-child {
+    border-bottom: none;
+}
+
+.bc-faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    transition: background 0.2s;
+}
+
+.bc-faq-question:hover {
+    background: #f9fafb;
+}
+
+.bc-faq-question svg {
+    flex-shrink: 0;
+    font-size: 20px;
+    color: #6b7280;
+}
+
+.bc-faq-answer {
+    padding: 0 24px 24px;
+    background: #fff;
+}
+
+.bc-faq-answer p {
+    font-size: 14px;
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ========================================
+   Responsive Styles
+======================================== */
+@media (max-width: 1200px) {
+    .bc-layout {
+        grid-template-columns: 200px 1fr;
+        gap: 32px;
+    }
+
+    .bc-options-grid,
+    .bc-shapes-grid,
+    .bc-business-grid,
+    .bc-holders-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bc-templates-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .bc-trust-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 992px) {
+    .bc-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .bc-hero-title {
+        font-size: 36px;
+    }
+
+    .bc-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .bc-sidebar {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        padding: 24px;
+        background: #f9fafb;
+        border-radius: 12px;
+        margin-bottom: 32px;
+        max-height: none;
+    }
+
+    .bc-sidebar-title {
+        grid-column: 1 / -1;
+    }
+
+    .bc-paper-detail {
+        grid-template-columns: 1fr;
+    }
+
+    .bc-delivery-banner {
+        grid-template-columns: 1fr;
+    }
+
+    .bc-delivery-image {
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bc-hero-buttons {
+        flex-direction: column;
+    }
+
+    .bc-btn {
+        width: 100%;
+    }
+
+    .bc-section-title {
+        font-size: 24px;
+    }
+
+    .bc-options-grid,
+    .bc-shapes-grid,
+    .bc-business-grid,
+    .bc-holders-grid,
+    .bc-templates-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bc-sidebar {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bc-paper-details-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bc-delivery-content {
+        padding: 32px;
+    }
+
+    .bc-delivery-content h2 {
+        font-size: 24px;
+    }
+
+    .bc-delivery-buttons {
+        flex-direction: column;
+    }
+
+    .bc-sample-section,
+    .bc-noise-section {
+        padding: 32px 24px;
+    }
+
+    .bc-faq-question {
+        padding: 16px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bc-container {
+        padding: 0 16px;
+    }
+
+    .bc-hero {
+        padding: 32px 0;
+    }
+
+    .bc-hero-title {
+        font-size: 28px;
+    }
+
+    .bc-sidebar {
+        grid-template-columns: 1fr;
+    }
+
+    .bc-paper-tabs {
+        gap: 6px;
+    }
+
+    .bc-paper-tab {
+        min-width: 70px;
+        padding: 6px;
+    }
+
+    .bc-paper-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .bc-paper-name {
+        font-size: 10px;
+    }
+
+    .bc-template-tabs {
+        gap: 6px;
+    }
+
+    .bc-template-tab {
+        padding: 6px 14px;
+        font-size: 12px;
+    }
+}
