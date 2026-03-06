@@ -2,6 +2,10 @@
 
 Complete clone of VistaPrint website built with modern React and Vite.
 
+> [!IMPORTANT]
+> **Full Project Documentation:** For detailed information about the Architecture, Backend API, and 4over Integration, see [DOCUMENTATION.md](./DOCUMENTATION.md).
+
+
 ## 🚀 Features
 
 - **Modern UI/UX Design**: Premium design with glassmorphism, gradients, and smooth animations

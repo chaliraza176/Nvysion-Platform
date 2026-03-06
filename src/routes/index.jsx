@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import ProtectedRoute from '../components/ProtectedRoute';
 
 // Lazy load pages
@@ -67,11 +67,11 @@ const AppRoutes = () => {
                 <Route path="/projects" element={<ProtectedRoute><Projects /></ProtectedRoute>} />
                 <Route path="/favorites" element={<ProtectedRoute><Favorites /></ProtectedRoute>} />
 
-                {/* Auth Routes */}
-                <Route path="/signin" element={<SignIn />} />
-                <Route path="/signup" element={<SignUp />} />
-                <Route path="/forgot-password" element={<ForgotPassword />} />
-                <Route path="/account-created" element={<AccountCreated />} />
+                {/* Auth Routes - Redirecting to home as per request */}
+                <Route path="/signin" element={<Navigate to="/" replace />} />
+                <Route path="/signup" element={<Navigate to="/" replace />} />
+                <Route path="/forgot-password" element={<Navigate to="/" replace />} />
+                <Route path="/account-created" element={<Navigate to="/" replace />} />
 
                 {/* Account Routes */}
                 <Route path="/account/dashboard" element={<ProtectedRoute><AccountDashboard /></ProtectedRoute>} />

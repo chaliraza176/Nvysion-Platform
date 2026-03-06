@@ -16,12 +16,15 @@ export const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    // Load user from localStorage on mount
+    // Load user from localStorage on mount - always provide a demo user for ease of use
     useEffect(() => {
-        const savedUser = getCurrentUser();
-        if (savedUser) {
-            setUser(savedUser);
-        }
+        const demoUser = {
+            _id: 'demo_user',
+            name: 'Demo User',
+            email: 'demo@example.com',
+            token: 'demo_token'
+        };
+        setUser(demoUser);
         setLoading(false);
     }, []);
 

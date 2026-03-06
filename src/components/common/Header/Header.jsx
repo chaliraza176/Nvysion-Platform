@@ -58,25 +58,11 @@ const Header = () => {
                                 <span className="action-label">Favorites</span>
                             </Link>
 
-                            <div
-                                className="account-dropdown-wrapper"
-                                onMouseEnter={() => setShowAccountMenu(true)}
-                                onMouseLeave={() => setShowAccountMenu(false)}
-                            >
-                                {isAuthenticated ? (
-                                    <Link to="/account/dashboard" className="header-action-btn account-btn">
-                                        <FiUser />
-                                        <span className="action-label">My Account</span>
-                                    </Link>
-                                ) : (
-                                    <Link to={NAV_LINKS.SIGNIN} className="header-action-btn">
-                                        <FiUser />
-                                        <span className="action-label">Sign in</span>
-                                    </Link>
-                                )}
-                                {isAuthenticated && showAccountMenu && (
-                                    <AccountDropdown user={user} />
-                                )}
+                            <div className="account-dropdown-wrapper">
+                                <Link to="/" className="header-action-btn">
+                                    <FiUser />
+                                    <span className="action-label">My Account</span>
+                                </Link>
                             </div>
 
                             <Link to={NAV_LINKS.CART} className="header-action-btn cart-btn">
