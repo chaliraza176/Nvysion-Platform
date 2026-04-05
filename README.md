@@ -1,4 +1,6 @@
 # VistaPrint Clone - React Application
+![Uploading 1.png…]()
+
 
 Complete clone of VistaPrint website built with modern React and Vite.
 
