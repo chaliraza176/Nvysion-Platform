@@ -1,10 +1,9 @@
 # VistaPrint Clone - React Application
-![Uploading 1.png…]()
 
+> [!IMPORTANT]<img width="1680" height="3560" alt="1" src="https://github.com/user-attachments/assets/eaf34916-f1f8-41ac-8d95-f840be9e582d" />
 
 Complete clone of VistaPrint website built with modern React and Vite.
 
-> [!IMPORTANT]
 > **Full Project Documentation:** For detailed information about the Architecture, Backend API, and 4over Integration, see [DOCUMENTATION.md](./DOCUMENTATION.md).
 
 
