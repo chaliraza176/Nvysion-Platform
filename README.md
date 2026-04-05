@@ -1,6 +1,5 @@
 # VistaPrint Clone - React Application
-
-> [!IMPORTANT]<img width="1680" height="3560" alt="1" src="https://github.com/user-attachments/assets/eaf34916-f1f8-41ac-8d95-f840be9e582d" />
+<img width="1670" height="1314" alt="1" src="https://github.com/user-attachments/assets/f67593ff-6f89-425d-a484-55f0cf81dbac" />
 
 Complete clone of VistaPrint website built with modern React and Vite.
 
